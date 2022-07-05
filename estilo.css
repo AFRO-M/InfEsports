@@ -12,7 +12,7 @@ article {
     font-size: 16px;
     font-family: 'Ruda', sans-serif;
     height: 30%;
-    width: 54%;
+    width: 69%;
 }
 #celtis{
     float: left;
@@ -24,6 +24,8 @@ img {
     margin-right: 10px;
     border-radius: 5%;
 }
+
+
 header{
     background: #4083e9;
     text-align: center;
@@ -166,4 +168,9 @@ body{
               transform-origin: 50% 100%;
     }
   }
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
   
