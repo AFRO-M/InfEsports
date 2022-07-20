@@ -81,6 +81,9 @@ header{
     text-decoration: none;
     color: white;
 }
+a {
+	color:black;
+}
 nav {
     display: flex;
     align-items: center;
