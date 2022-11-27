@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>INFE</title>
-    <link rel="icon" href="imgs/logo.png">
+    <link rel="icon" href="imgs/logocerta.png">
     <meta charset="utf-8">
     <link rel="stylesheet" href="estilo.css">
     <link rel="shortcut icon" href="/imgs/logo_2.png">
@@ -22,8 +22,9 @@
       </ul>
     </nav>
     </header>
+    <img id ="mostraTabela" src="/imgs/iconmonstr-eye-filled.svg" alt="Click para mostra ou ocultar a tabela">
     <div id="tabelas">
-    <table class="table-2">
+    <table class="table-2" id="tabela" >
       <tr class="cabeça"><td id="equipe">Equipe</td><td>V</td><td>D</td><td>Casa</td><td>Fora</td></tr>
       <tr><td><img src="imgs/suns.png" alt="">Suns</td><td>64</td><td>18</td><td>32-9</td><td>32-9</td></tr>
       <tr><td><img src="imgs/grizzlies.png" alt="">Grizzlies</td><td>56</td><td>26</td><td>30-11</td><td>26-15</td></tr>
@@ -50,28 +51,30 @@
       <tr><td><img src="imgs/Hornets.png" alt="">Hornets</td><td>43</td><td>39</td><td>22-19</td><td>21-20</td></tr>
     </table>
   </div>
-    <div>
-    <article>
+    <div class="div-noticia">
+    <article  class="noticias">
       <img src="imgs/Golden-States-Warriors-bate-Boston-Celtics-no-jogo-6-da-série-e-se-torna-o-campeão-da-NBA-finals.jpg" id="imgnot">
       <h2><strong> States Warriors bate Boston Celtics no jogo 6 da série e se torna o campeão da NBA finals 21-22!</strong>
         <a href="https://jovempan.com.br/esportes/outros-esportes/warriors-batem-celtics-sao-campeoes-da-nba-e-ultrapassam-bulls-de-jordan.html ">Confira matéria completa.</a></h2>
     </article>
-    <article>
+    <article  class="noticias">
       <img src="imgs/knicks2 (2).jpg" id="imgnot">
       <h2><strong>NBA: Knicks pode negociar Julius Randle com os Lakers.</strong>
         <a href="https://www.lakersbrasil.com/site/noticias/2022/07/nba_knicks_pode_negociar_julius_randle_com_o_lakers"><br>Confira matéria completa</br></a>
       </h2>
     </article>
-    <article>
+    <article  class="noticias">
       <img src="imgs/Celtics-tem-melhor-performance-no-garrafão-e-leva-melhor-sobre-Golden-no-jogo-3-dos play-offs.jpg" id="imgnot">
       <h2><strong>Celtics tem melhor performance no garrafão e leva melhor sobre Golden no jogo 3 dos play-offs.</strong>
         <a href="https://ge.globo.com/basquete/nba/noticia/2022/06/09/analise-celtics-dominam-o-garrafao-e-golden-state-se-perde-na-reta-final-do-jogo-3.ghtml"><br>Confira a matéria completa.</br></a></h2>
     </article>
-    <article>
+    <article  class="noticias">
       <img src="imgs/bucks1.jpg" id="imgnot">
       <h2><strong> NBA: Bucks renovam contrato de Pat Connaughton.</strong>
         <a href="https://www.torcedores.com/noticias/2022/07/nba-bucks-renovam-contrato-de-pat-connaughton"><br>Confira a matéria completa.</br></a></h2>
     </article>
   </div>
+  <button id="adNoticia">Adicionar Noticia</button>
   </body>
+  <script src="script.js"></script>
 </html>
